@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "281737243145",
+    "project_id": "rositasapp",
+    "storage_bucket": "rositasapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281737243145:android:31d4561c9c53e607b2a6d8",
+        "android_client_info": {
+          "package_name": "edu.msu.diazvald.rositasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281737243145-3qe2kjdh508ls85hl2rqp7pumnpv1qf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBulbdmyZhMycRvr6gkAOvjMQRRne5_uQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281737243145-3qe2kjdh508ls85hl2rqp7pumnpv1qf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

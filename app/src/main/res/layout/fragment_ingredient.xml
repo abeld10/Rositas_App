@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ingredient_title"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Meat (Choose one)"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/meat_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/meat_asada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asada" />
+
+            <RadioButton
+                android:id="@+id/meat_alpastor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Al Pastor" />
+
+            <RadioButton
+                android:id="@+id/meat_Pollo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pollo" />
+
+            <RadioButton
+                android:id="@+id/meat_chorizo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chorizo" />
+
+            <RadioButton
+                android:id="@+id/meat_barbacoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Barbacoa" />
+
+
+            <RadioButton
+                android:id="@+id/meat_chicharron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chicharron" />
+
+            <RadioButton
+                android:id="@+id/meat_groundbeef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ground Beef" />
+
+            <RadioButton
+                android:id="@+id/meat_cabeza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cabeza" />
+
+            <RadioButton
+                android:id="@+id/meat_tripa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tripa +$1.00" />
+
+            <RadioButton
+                android:id="@+id/meat_lengua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lengua +1.00" />
+
+            <RadioButton
+                android:id="@+id/meat_none"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None" />
+
+
+            <!-- Repeat for each meat option... -->
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Toppings"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/topping_cilantro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cilantro +$0.25" />
+        <CheckBox
+            android:id="@+id/topping_cebolla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cebolla +$0.25" />
+        <CheckBox
+            android:id="@+id/topping_lechuga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lechuga +$0.25" />
+        <CheckBox
+            android:id="@+id/topping_tomate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tomate +$0.25" />
+        <CheckBox
+            android:id="@+id/topping_queso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Queso +$0.50" />
+        <CheckBox
+            android:id="@+id/topping_aguacate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aguacate +$1.50" />
+        <CheckBox
+            android:id="@+id/topping_sourcream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sour Cream +$0.75" />
+
+        <CheckBox
+            android:id="@+id/topping_cebyjal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cebollita y Jalapeno +$2.50" />
+
+        <!-- Repeat for each topping option... -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/price_title"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/add_to_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red_pink"
+            android:textColor="@color/white"
+            android:text="Add to Cart" />
+
+    </LinearLayout>
+
+</ScrollView>
